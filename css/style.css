@@ -1,1 +1,47 @@
-@import 'plugins/mixins';
+@import "/igor/igor";
+::-webkit-input-placeholder {
+  color: #4c4c4c;
+  opacity: 1;
+}
+:-moz-placeholder {
+  color: #4c4c4c;
+  opacity: 1;
+}
+::-moz-placeholder {
+  color: #4c4c4c;
+  opacity: 1;
+}
+:-ms-input-placeholder {
+  color: #4c4c4c;
+  opacity: 1;
+}
+.text_pole ::-webkit-input-placeholder {
+  color: #737373;
+  opacity: 1;
+}
+.text_pole :-moz-placeholder {
+  color: #737373;
+  opacity: 1;
+}
+.text_pole ::-moz-placeholder {
+  color: #737373;
+  opacity: 1;
+}
+.text_pole :-ms-input-placeholder {
+  color: #737373;
+  opacity: 1;
+}
+/*
+ Flexbox grid @mixin
+ EXAMPLE
+ .flexbox {
+ @include boxGrid(5, 4%);
+ }
+ */
+header {
+  position: relative;
+}
+footer {
+  padding: 20px 0;
+  background: #212122;
+}

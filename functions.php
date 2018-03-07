@@ -36,6 +36,7 @@ add_action( 'wp_print_styles', 'voodoo_deregister_styles', 100 );
 function voodoo_deregister_styles() {
   wp_deregister_style( 'contact-form-7' );
 }
+
 //REMOVE AUTO-TOP
 if(defined('WPCF7_VERSION')) {
   function maybe_reset_autop( $form ) {

@@ -14,7 +14,8 @@
 	   <div class="row">
 	    	<a id="logo" href="/" style="background: url(<?php the_field("logo","options"); ?>);background-size: 100%;background-repeat: no-repeat;" ></a>
 	        <nav>
-							<div class='menuopen'><span class='first'></span><span class='center'></span><span class='last'></span></div>
+						<div class="memutext">Menu</div>
+						<div class='menuopen'><span class='first'></span><span class='center'></span><span class='last'></span></div>
 	            <?php wp_nav_menu(array('container' => false, 'items_wrap' => '<ul>%3$s</ul>', 'theme_location'  => 'general')); ?>
 	        </nav>
 	    </div>
