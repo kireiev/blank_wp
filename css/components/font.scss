@@ -15,16 +15,17 @@
 @include declare-font('fontawesome-regular', 'fa-regular-400');
 @include declare-font('fontawesome-brands', 'fa-brands-400');
 @include declare-font('fontawesome-solid', 'fa-solid-900');
-
 //----------------------------------------------------------------------
 //FONT ICON
 //----------------------------------------------------------------------
 //SITE
 //https://fontawesome.com/cheatsheet
 
-[class^="fa-"]:before,
-[class*=" fa-"]:before {
-  font-family: 'fontawesome';
+.fa,
+.fas,
+.far,
+.fal,
+.fab {
   font-style: normal;
   font-weight: normal;
   speak: none;
@@ -34,6 +35,20 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.fab {
+  font-family: 'fontawesome-brands';
+}
+.far {
+  font-family: 'fontawesome-regular';
+}
+.fa,
+.fas {
+  font-family: 'fontawesome-solid';
+}
+
+
+
 
 .fa-lg {
   font-size: 1.33333em;
@@ -2665,5 +2680,5 @@ readers do not read off random characters that represent icons */
   width: auto; }
 .fa,
 .fas {
-  font-family: 'Font Awesome 5 Free';
-  font-weight: 900; }
+  font-family: 'fontawesome-solid';
+}
